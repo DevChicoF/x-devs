@@ -56,6 +56,11 @@ body {
     justify-content: center;
     transition: background-color 0.2s ease-in-out;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    @media(max-width: 650px) {
+      width: 60px;
+      height: 60px;
+  }
 }
 
 .btn-seta.btn-voltar{
